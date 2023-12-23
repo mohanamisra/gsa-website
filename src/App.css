@@ -1,3 +1,44 @@
-html {
-    background: red;
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*NAVBAR STYLING*/
+
+.navbar {
+    color: #FFFFFF;
+    background: #1F1A38;
+    min-height: 80px;
+    padding: 10px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-image {
+    max-height: 64px;
+}
+
+.brand-name {
+    font-weight: 800;
+    font-size: 40px;
 }
