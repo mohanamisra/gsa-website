@@ -1,8 +1,6 @@
 import './App.css'
 import logo from './assets/logo.png'
-import img1 from './assets/img1.png'
-import img2 from './assets/img2.png'
-import img3 from './assets/img3.png'
+import images from './assets/images.png'
 
 const App = () => {
     return (
@@ -23,13 +21,15 @@ const App = () => {
 
             <div className = 'assurance'>
                 <div className = 'images'>
-                    <div className = 'image-1'><img className = 'img1' src = {img1} alt = 'pride flag'/></div>
-                    <div className = 'image-2'><img className = 'img2' src = {img2} alt = 'men hugging'/></div>
-                    <div className = 'image-3'><img className = 'img3' src = {img3} alt = 'pride march under rainbow flag'/></div>
+                    <img className = 'all-images-img' src = {images} alt = 'pride march photos'/>
                 </div>
                 <div className = 'text'>
-                    <div className = 'section-heading'></div>
-                    <div className = 'section-text'></div>
+                    <div className = 'section-heading'>So, What's Your Story?</div>
+                    <div className = 'section-text'>
+                        Because it deserves to be heard. Share
+                        something huge that happened<br/> in your life, happy or sad, or tell us about
+                        what you had for breakfast today <br/>— we won’t judge!
+                    </div>
                 </div>
             </div>
 

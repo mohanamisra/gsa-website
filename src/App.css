@@ -1,6 +1,7 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*NAVBAR STYLING*/
@@ -14,8 +15,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    font-family: 'Montserrat', sans-serif;
 }
 
 .left-links {
@@ -41,4 +40,46 @@ html, body {
 .brand-name {
     font-weight: 800;
     font-size: 40px;
+}
+
+/*ASSURANCE SECTION STYLING*/
+
+.assurance {
+    background: #F4743B;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 25px;
+    min-height: 500px;
+
+    color: white;
+
+    display: flex;
+}
+
+.all-images-img {
+    max-width: 650px;
+}
+
+.images {
+    width: 100%;
+}
+
+.assurance .text {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.assurance .section-heading {
+    font-size: 72px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.assurance .section-text {
+    font-size: 22px;
+    text-align: right;
+    font-weight: 500;
+    line-height: 50px;
 }
