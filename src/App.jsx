@@ -26,9 +26,9 @@ const App = () => {
                 <div className = 'text'>
                     <div className = 'section-heading'>So, What's Your Story?</div>
                     <div className = 'section-text'>
-                        Because it deserves to be heard. Share
-                        something huge that happened<br/> in your life, happy or sad, or tell us about
-                        what you had for breakfast today <br/>— we won’t judge!
+                        All stories deserve to be heard. <br/>Share
+                        something huge that happened<br/> in your life, something positively ecstatic or something
+                        sad, or tell us about what you had for breakfast today morning <br/>— we won’t judge!
                     </div>
                 </div>
             </div>

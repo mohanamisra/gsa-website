@@ -54,6 +54,8 @@ html, body {
     color: white;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .all-images-img {
@@ -65,7 +67,7 @@ html, body {
 }
 
 .assurance .text {
-    max-width: 70%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -80,6 +82,6 @@ html, body {
 .assurance .section-text {
     font-size: 22px;
     text-align: right;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 50px;
 }
