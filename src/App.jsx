@@ -17,6 +17,13 @@ const App = () => {
                 </div>
             </div>
 
+            <div className = 'assurance'>
+                <div className = 'images'></div>
+                <div className = 'text'>
+                    <div className = 'section-heading'></div>
+                    <div className = 'section-text'></div>
+                </div>
+            </div>
 
         </div>
     )
