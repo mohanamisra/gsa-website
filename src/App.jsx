@@ -19,18 +19,22 @@ const App = () => {
                 </div>
             </div>
 
-            <div className = 'assurance'>
+            <div className = 'hero'>
                 <div className = 'images'>
                     <img className = 'all-images-img' src = {images} alt = 'pride march photos'/>
                 </div>
                 <div className = 'text'>
                     <div className = 'section-heading'>So, What's Your Story?</div>
                     <div className = 'section-text'>
-                        All stories deserve to be heard. <br/>Share
-                        something huge that happened<br/> in your life, something positively ecstatic or something
-                        sad, or tell us about what you had for breakfast today morning <br/>— we won’t judge!
+                        All stories deserve to be heard. So tell us yours. It could be a happy one, a sad one, or an
+                        unfinished one. Share your path to coming out, or growing into yourself, or struggling to do
+                        them right now. No one's journey follows the same path — we won't judge!
                     </div>
                 </div>
+            </div>
+
+            <div className = 'assurance'>
+
             </div>
 
         </div>
