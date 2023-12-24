@@ -168,3 +168,47 @@ html, body {
     font-size: 16px;
     width: 60%;
 }
+
+/*CTA SECTION STYLING*/
+
+.cta {
+    background: #1F1A38;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.icon {
+    max-height: 72px;
+}
+
+.cta-choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.insta-div, .discord-div, .question-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-heading, .cta-text {
+    color: white;
+}
+
+.cta-heading {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cta-text {
+    width: 70%;
+}

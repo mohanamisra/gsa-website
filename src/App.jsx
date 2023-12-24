@@ -3,6 +3,9 @@ import logo from './assets/logo.png'
 import images from './assets/images.png'
 import read from './assets/read.svg'
 import write from './assets/write.svg'
+import instaIcon from './assets/insta.svg'
+import discordIcon from './assets/discord.svg'
+import questionIcon from './assets/question.svg'
 
 const App = () => {
     return (
@@ -63,7 +66,24 @@ const App = () => {
             </div>
 
             <div className = 'cta section'>
-                
+                <div className = 'section-heading'>Or you could...</div>
+                <div className = 'cta-choices'>
+                    <div className = 'insta-div'>
+                        <img className = 'insta icon' src = {instaIcon} alt = 'instagram icon'/>
+                        <div className = 'cta-heading'>Follow us on Instagram!</div>
+                        <div className = 'cta-text'>We post everything here, follow for updates!</div>
+                    </div>
+                    <div className = 'discord-div'>
+                        <img className = 'discord icon' src = {discordIcon} alt = 'discord icon'/>
+                        <div className = 'cta-heading'>Join our Discord Server!</div>
+                        <div className = 'cta-text'>This is where we all hang out. Come along and have fun!</div>
+                    </div>
+                    <div className = 'question-div'>
+                        <img className = 'question icon' src = {questionIcon} alt = 'question icon'/>
+                        <div className = 'cta-heading'>Ask us a question!</div>
+                        <div className = 'cta-text'>Reach out to us, we’re always there for you!</div>
+                    </div>
+                </div>
             </div>
 
         </div>
