@@ -1,7 +1,8 @@
 import './App.css'
 import logo from './assets/logo.png'
 import images from './assets/images.png'
-import rainbow from './assets/rainbow.png'
+import read from './assets/read.svg'
+import write from './assets/write.svg'
 
 const App = () => {
     return (
@@ -41,6 +42,24 @@ const App = () => {
                     <br/><br/>
                     The anonymity of our posters is our utmost priority and we treat it very seriously.
                     Readers, including moderators of the site can only see that ‘someone’ has posted.</div>
+            </div>
+
+            <div className = 'read-write section'>
+                <div className = 'section-heading'>What would you like to do?</div>
+                <div className = 'choices'>
+                    <div className = 'read card'>
+                        <img className = 'read-image' src = {read} alt = 'a book held by hands'/>
+                        <div className = 'heading'>Read</div>
+                        <div className = 'card-text'>Lend your ears to the experiences of other
+                            queer people from all walks of life.</div>
+                    </div>
+                    <div className = 'write card'>
+                        <img className = 'write-image' src = {write} alt = 'a pencil writing on paper'/>
+                        <div className = 'heading'>Write</div>
+                        <div className = 'card-text'>Write about yourself, your life, something that happened
+                            ten years back or what you’re anxious about right now!</div>
+                    </div>
+                </div>
             </div>
 
         </div>
