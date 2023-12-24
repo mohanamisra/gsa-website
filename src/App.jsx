@@ -1,6 +1,7 @@
 import './App.css'
 import logo from './assets/logo.png'
 import images from './assets/images.png'
+import rainbow from './assets/rainbow.png'
 
 const App = () => {
     return (
@@ -19,7 +20,7 @@ const App = () => {
                 </div>
             </div>
 
-            <div className = 'hero'>
+            <div className = 'hero section'>
                 <div className = 'images'>
                     <img className = 'all-images-img' src = {images} alt = 'pride march photos'/>
                 </div>
@@ -33,8 +34,13 @@ const App = () => {
                 </div>
             </div>
 
-            <div className = 'assurance'>
-
+            <div className = 'assurance section'>
+                <div className = 'section-heading'>Share and browse stories anonymously</div>
+                <div className = 'section-text'>We do not store any personal data from you at all except what you
+                    choose to share with us. We don’t ask for any suspicious permissions, don’t use cookies, nothing.
+                    <br/><br/>
+                    The anonymity of our posters is our utmost priority and we treat it very seriously.
+                    Readers, including moderators of the site can only see that ‘someone’ has posted.</div>
             </div>
 
         </div>
