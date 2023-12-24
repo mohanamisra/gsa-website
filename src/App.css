@@ -61,12 +61,15 @@ html, body {
 }
 
 .all-images-img {
-    max-width: 600px;
+    height: 600px;
+    width: 600px;
+    padding-left: 50px;
 }
 
 .images {
     width: 100%;
 }
+
 
 .hero .text {
     max-width: 50%;
