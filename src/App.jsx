@@ -55,12 +55,14 @@ const App = () => {
                         <div className = 'heading'>Read</div>
                         <div className = 'card-text'>Lend your ears to the experiences of other
                             queer people from all walks of life.</div>
+                        <div className = 'read-link'>Check it out!</div>
                     </div>
                     <div className = 'write card'>
                         <img className = 'write-image' src = {write} alt = 'a pencil writing on paper'/>
                         <div className = 'heading'>Write</div>
                         <div className = 'card-text'>Write about yourself, your life, something that happened
                             ten years back or what you’re anxious about right now!</div>
+                        <div className = 'write-link'>Check it out!</div>
                     </div>
                 </div>
             </div>

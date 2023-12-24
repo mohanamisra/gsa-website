@@ -11,10 +11,17 @@ html, body {
     background: #1F1A38;
     min-height: 48px;
     padding: 10px 25px;
+    border-bottom: 5px solid #F4743B;
+    border-image: linear-gradient(to right, #ffac89, #ff5100) 1;
+
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .left-links {
@@ -31,6 +38,25 @@ html, body {
     font-weight: 500;
     width: 100%;
     justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+
+.right-links div {
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: white;
+    color: black;
+    font-weight: 700;
+}
+
+.right-links div:hover {
+    background: #F4743B;
+    color: white;
+    border: 1px solid #F4743B;
 }
 
 .logo-image {
@@ -40,6 +66,19 @@ html, body {
 .brand-name {
     font-weight: 800;
     font-size: 28px;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.brand-name:hover {
+    animation: tilt-shaking 0.25s ease 3ms; /* Apply the animation on hover */
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 /*HERO SECTION STYLING*/
@@ -87,7 +126,7 @@ html, body {
 .section-text {
     font-size: 20px;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 40px;
     color: white;
 }
 
@@ -157,6 +196,12 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    transition: transform 0.1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card .heading {
@@ -170,6 +215,17 @@ html, body {
     font-weight: 500;
     font-size: 16px;
     width: 60%;
+}
+
+.read-link, .write-link {
+    margin-top: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+}
+
+.read-link:hover, .write-link:hover {
+    text-decoration-style: wavy;
 }
 
 /*CTA SECTION STYLING*/
@@ -201,6 +257,11 @@ html, body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.insta-div:hover, .discord-div:hover, .question-div:hover {
+    transform: scale(1.05);
 }
 
 .cta-heading, .cta-text {
@@ -214,6 +275,7 @@ html, body {
 
 .cta-text {
     width: 70%;
+    font-size: 16px;
 }
 
 /*FOOTER STYLING*/
@@ -231,6 +293,15 @@ html, body {
 .page-links {
     display: flex;
     justify-content: space-around;
+}
+
+.faqs, .resources, .contact {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.faqs:hover, .resources:hover, .contact:hover {
+    text-decoration-style: wavy;
 }
 
 .branding {
