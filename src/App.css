@@ -212,3 +212,36 @@ html, body {
 .cta-text {
     width: 70%;
 }
+
+/*FOOTER STYLING*/
+
+.footer {
+    background: #F4743B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.footer .logo-image {
+    max-height: 32px;
+}
+
+.footer .brand-name {
+    font-size: 20px;
+}

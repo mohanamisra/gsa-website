@@ -86,6 +86,17 @@ const App = () => {
                 </div>
             </div>
 
+            <footer className = 'footer section'>
+                <div className = 'page-links'>
+                    <div className = 'faqs'>FAQs</div>
+                    <div className = 'resources'>Resources</div>
+                    <div className = 'contact'>Contact Us</div>
+                </div>
+                <div className = 'branding'>
+                    <img src = {logo} className = 'logo-image' alt = 'pride flag on heart'/>
+                    <div className = 'brand-name'>ColoursIncognito</div>
+                </div>
+            </footer>
         </div>
     )
 }
