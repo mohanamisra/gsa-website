@@ -62,6 +62,10 @@ const App = () => {
                 </div>
             </div>
 
+            <div className = 'cta section'>
+                
+            </div>
+
         </div>
     )
 }
